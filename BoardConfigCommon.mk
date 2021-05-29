@@ -115,10 +115,6 @@ BOARD_USES_QCOM_HARDWARE := true
 MALLOC_SVELTE := true
 TARGET_RIL_VARIANT := caf
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system_prop.mk
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
-
 # Recovery
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
 
