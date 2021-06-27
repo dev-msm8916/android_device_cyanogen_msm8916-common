@@ -289,6 +289,9 @@ on property:sys.boot_completed=1
     swapon_all /system/vendor/etc/fstab.qcom
     restart vendor.camera-provider-2-5
     restart cameraserver
+
+on property:init.svc.qcamerasvr=running
+   restart media
   
 service qseecomd /system/vendor/bin/qseecomd
     class core
