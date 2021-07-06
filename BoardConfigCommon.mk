@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-PLATFORM_PATH := device/xiaomi/msm8916-common
+PLATFORM_PATH := device/xiaomi/ido-common
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
